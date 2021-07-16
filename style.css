@@ -1,0 +1,43 @@
+body {
+  background-color: CornflowerBlue;
+}
+
+h1, p {
+  text-align: center;
+  color: white;
+  font-family: Verdana;
+}
+h1 {
+  front-size: 40px;
+}
+
+p {
+  front-size: 24px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
+
+button {
+  background-color: CornFlowerBlue;
+  display: block;
+  margin: 20px auto;
+  height: 60px;
+  width: 180px;
+  border: 2px solid white;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: RoyalBlue;
+}
+
+button:active {
+  background-color: SteelBlue;
+}
